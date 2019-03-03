@@ -1,6 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+@font-face {
+	font-family: "Font Awesome 5 Free-Regular-400";
+	src: url(../fonts/Font%20Awesome%205%20Free-Regular-400.otf) format("opentype");}
+	
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -2015,6 +2019,7 @@ input, select, textarea {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
+			font-weight: 900;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2095,7 +2100,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 35%;
 		}
 
 			.image.left img, .image.right img {
@@ -2771,7 +2776,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+			width: 75em;
 			margin: 0 auto;
 		}
 
@@ -3876,7 +3881,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 1em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
