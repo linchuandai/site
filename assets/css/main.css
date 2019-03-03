@@ -1,10 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-@font-face {
-	font-family: "Font Awesome 5 Free-Regular-400";
-	src: url(../fonts/Font%20Awesome%205%20Free-Regular-400.otf) format("opentype");}
-	
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -2776,7 +2772,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			width: 75em;
+			width: 90%;
 			margin: 0 auto;
 		}
 
@@ -3590,7 +3586,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 2.75em;
+			font-size 2.5em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
