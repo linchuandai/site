@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Spectral by HTML5 UP</title>
+		<title>MyoType</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,19 +19,16 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="index.html">Leon Dai</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<a href="#menu" class="menuToggle"><span>More</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="project-alarm-clock.html">Smart Alarm Clock</a></li>
+                                        </ul>
 									</div>
 								</li>
 							</ul>
@@ -42,15 +39,38 @@
 					<article id="main">
 						<header>
 							<h2>MyoType</h2>
-							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-								<p>This is a Smart Alarm Clock which was the final project in ECE 150 and was completed with two other group members.
-									This alarm clock can display the date, time, store one alarm and display the weather. It retrieves the weather 
-									from the Yahoo Weather API. This is all coded in C with some functionality being implemented with python scripts 
-									accessed through the linux terminal of the Onion Omega 2. The hardware of this project consists of: </p>
-									
+                                <span class="image right"><img src="images/projects/myotype/myowork.jpg" alt="" /></span>
+								<p>
+                                    This is a project that I worked on in a team of four at EC Hacks. We made this project as a way for people 
+                                    to type without the use of a keyboard. It was designed for people for who do have fine motor control and
+                                    can only make "large" movements. This project utilizes the Myo Arm Band, which can track the position of
+                                    your arm, along with certain actions of the hand. By using the tracking technology of the arm band, we 
+                                    were able to create a system where the user would be able to control a tree and select certain values
+                                    which would correspond to letters, spaces, punctuation, etc... 
+                                </p>
+                                <h6>The specific controls are:</h6>
+                                <ul>
+                                    <li>Moving left and right down the binary tree</li>
+                                    <li>Having a backspace button that deletes the last character</li>
+                                    <li>Choosing the current character where the cursor points</li>
+                                    <li>Changing the speed at which you traverse down the tree</li>
+                                </ul>
+
+                                <p>
+                                    For this project, the major challenge that we ran into was translating what the sensors was reading into
+                                    information that we could use to translate these into certain actions. From the sensors, we could gather information
+                                    such as change in pitch, yaw, and roll, which we could then translate into twisting, and lateral movement in
+                                    the different directions.
+
+                                </p>
+
+                                <br><br>
+
+                                <h2>The Finished Product</h2>
+                                <span class="image fit"><img src="images/projects/myotype/myoarm.jpg" alt="" /></span>
 							</div>
 						</section>
 					</article>
